@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Chango);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+body {
+  background-color:#fff;
+  margin:0px;
+  padding:0px;
+}
+
+#container {
+  width:600px;
+  margin:20px auto 0px auto;
+}
+
+.centered {
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family:'Chango', serif;
+}
+
+h1 {
+  font-size:4em;
+  text-align:center;
+  padding-bottom:0.25em;
+  margin-bottom:1.25em;
+  border-bottom:2px #ccc solid;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size:1.5em;
+}
+
+.gobutton {
+  font-family:'Chango', serif;
+  font-size:1.25em;
+  font-weight:bold;
+  padding:10px;
+  background-color:#F0F8FF;
+  color:#000;
+}
+
+.problem {
+  font-family: 'Inconsolata', monospace;
+  font-size:6em;
+  text-align:center;
+}
+
+.correct {
+  color: darkgreen
+}
+
+.incorrect {
+  color: darkred
+}
